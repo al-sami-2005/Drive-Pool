@@ -1,6 +1,6 @@
 # DriveCloud
 
-Unified dashboard that aggregates multiple Google Drive accounts into a single storage pool. Files are automatically routed to the account with the most available space on every upload.
+Unified dashboard that aggregates N Google Drive accounts into a single storage pool. Files are automatically routed to the account with the most available space on every upload.
 
 ## Structure
 

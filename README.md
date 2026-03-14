@@ -42,13 +42,13 @@ cd DrivePool
 
 ### 2. Google OAuth credentials
 
-For each Drive account you want to add:
+You only need **one Google Cloud project** and one credentials file — no matter how many Drive accounts you add.
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com) → create a new project
 2. Enable **Google Drive API**
-3. Create an OAuth consent screen (External, add yourself as test user)
-4. Create credentials → **OAuth client ID → Desktop app** → download JSON
-5. Save as `config/credentials_1.json`, `config/credentials_2.json`, etc.
+3. Create an OAuth consent screen → choose **External**, fill in any app name, and add **all Google accounts you want to connect** as test users
+4. Create credentials → **OAuth client ID → Web application** → add `http://localhost:8000/api/auth/callback` as an authorized redirect URI → download JSON
+5. Save as `config/credentials.json`
 
 ### 3. Install & set up
 
@@ -71,7 +71,7 @@ cd frontend && npm install && npm run dev
 
 ### 5. Connect your accounts
 
-Open [http://localhost:3000](http://localhost:3000), log in with your PIN, navigate to **Settings**, and click **Connect** on each account.
+Open [http://localhost:3000](http://localhost:3000), log in with your PIN, navigate to **Settings**, and click **Connect another account** to authorize each Google account via OAuth.
 
 That's it — start uploading at [http://localhost:3000/dashboard](http://localhost:3000/dashboard).
 
@@ -79,7 +79,7 @@ That's it — start uploading at [http://localhost:3000/dashboard](http://localh
 
 ## Adding more storage
 
-Drop another `credentials_N.json` into `config/`, restart the backend, and connect the new account in Settings. Each free Google account adds 15 GB to your pool.
+Go to **Settings** and click **Connect another account** — no file changes, no restart needed. Make sure the new Google account is added as a test user on the OAuth consent screen first. Each free Google account adds 15 GB to your pool.
 
 ---
 

@@ -91,12 +91,6 @@ Go to **Settings** and click **Connect another account** — no file changes, no
 
 ---
 
-## Full setup guide
-
-See [http://localhost:3000/docs](http://localhost:3000/docs) once the app is running, or read `frontend/app/docs/page.tsx` directly.
-
----
-
 ## License
 
 MIT

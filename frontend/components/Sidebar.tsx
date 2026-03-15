@@ -119,6 +119,14 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             </button>
           )}
         </div>
+        
+        {/* User Branding */}
+        {!collapsed && (
+          <div className="px-6 py-4 border-b border-dp-border">
+            <p className="text-[10px] font-semibold uppercase tracking-widest text-dp-text3">Built by</p>
+            <p className="text-xs font-bold text-dp-text mt-1">Al Sami</p>
+          </div>
+        )}
 
         {/* Nav */}
         <nav className={`flex-1 space-y-0.5 py-4 ${collapsed ? "lg:px-1.5 px-3" : "px-3"}`}>

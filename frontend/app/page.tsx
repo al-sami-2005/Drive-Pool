@@ -156,9 +156,8 @@ export default function LandingPage() {
               )}
             </button>
             <a
-              href="https://github.com/saimon4u/Drive-Pool"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(e) => e.preventDefault()}
               className="flex items-center gap-1.5 rounded-lg border border-dp-border px-3 py-1.5 text-xs text-dp-text2 transition hover:border-orange-500/40 hover:text-dp-text"
             >
               <svg className="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
@@ -211,9 +210,8 @@ export default function LandingPage() {
               Open Dashboard
             </Link>
             <a
-              href="https://github.com/saimon4u/Drive-Pool"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(e) => e.preventDefault()}
               className="flex items-center gap-2 rounded-xl border border-dp-border bg-dp-s1 px-6 py-3 font-semibold text-dp-text transition hover:border-orange-500/40"
             >
               <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -434,9 +432,8 @@ export default function LandingPage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3">
               <a
-                href="https://github.com/saimon4u/Drive-Pool"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#"
+                onClick={(e) => e.preventDefault()}
                 className="flex items-center gap-2 rounded-xl border border-orange-500/30 bg-orange-500/10 px-6 py-3 font-semibold text-orange-400 transition hover:bg-orange-500/20"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -467,7 +464,7 @@ export default function LandingPage() {
             <span className="text-sm font-medium text-dp-text2">DrivePool</span>
           </div>
           <p className="text-xs text-dp-text3">
-            Free &amp; open source · Self-hosted Google Drive aggregator
+            Free &amp; open source · Built by Al Sami · Self-hosted Google Drive aggregator
           </p>
         </div>
       </footer>

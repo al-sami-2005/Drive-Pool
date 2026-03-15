@@ -1,4 +1,4 @@
-# DrivePool
+# DrivePool · Built by Al Sami
 
 Self-hosted unified dashboard that aggregates multiple Google Drive accounts into a single storage pool. Every upload automatically routes to the account with the most available space — no manual management, no paid tier.
 
@@ -33,11 +33,10 @@ Google gives every account **15 GB free**. DrivePool lets you combine as many ac
 
 **Prerequisites:** Python 3.10+, Node.js 18+, at least one Google account
 
-### 1. Clone
+### 1. Setup
 
 ```bash
-git clone https://github.com/saimon4u/Drive-Pool.git
-cd DrivePool
+cd Drive-Pool
 ```
 
 ### 2. Google OAuth credentials

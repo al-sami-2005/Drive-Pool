@@ -229,8 +229,7 @@ export default function DocsPage() {
                   Fork the repository on GitHub to get your own copy, then clone it locally.
                 </p>
                 <Block label="Terminal">
-{`git clone https://github.com/saimon4u/Drive-Pool.git
-cd Drive-Pool`}
+{`cd Drive-Pool`}
                 </Block>
               </div>
             </section>
@@ -535,8 +534,7 @@ npm run dev`}
                 </div>
               </div>
               <p className="mt-8 text-center text-xs text-dp-text3">
-                DrivePool is free and open source.{" "}
-                <a href="https://github.com/saimon4u/Drive-Pool" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:underline">View on GitHub.</a>
+                DrivePool is free and open source. Built by Al Sami.
               </p>
             </section>
 

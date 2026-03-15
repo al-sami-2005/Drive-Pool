@@ -1,4 +1,4 @@
-# DrivePool · Built by Al Sami
+# DrivePool Al Sami
 
 Self-hosted unified dashboard that aggregates multiple Google Drive accounts into a single storage pool. Every upload automatically routes to the account with the most available space — no manual management, no paid tier.
 
